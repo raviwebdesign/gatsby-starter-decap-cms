@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
- <header>
+ <header style="margin-bottom:80px;">
     <title>Vider Business Solutions</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,6 +20,8 @@ const Navbar = () => {
       name="description"
       content="LEARN-TRAIN-MANAGE-SUCCEED - join VIDER,  a technology-driven platform that revolutionizes business practices and ensures compliance with regulations, simplifying the process of doing business & professional practice."
     />
+        <script type="text/javascript" src="https://vider.netlify.app/js/main.js"></script>
+        <script type="text/javascript" src="https://vider.netlify.app/js/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://vider.netlify.app/css/font-icons.min.css" />
     <link rel="stylesheet" type="text/css" href="https://vider.netlify.app/css/theme-vendors.min.css" />
     <link rel="stylesheet" type="text/css" href="https://vider.netlify.app/css/style.css" />
