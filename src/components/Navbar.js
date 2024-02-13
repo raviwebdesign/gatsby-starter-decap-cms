@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
- <header style="margin-bottom:80px;">
+ <header>
     <title>Vider Business Solutions</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
