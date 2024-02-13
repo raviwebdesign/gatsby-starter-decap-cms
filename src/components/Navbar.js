@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-      <head>
+ <header>
     <title>Vider Business Solutions</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,8 +25,6 @@ const Navbar = () => {
     <link rel="stylesheet" type="text/css" href="https://vider.netlify.app/css/style.css" />
     <link rel="stylesheet" href="https://vider.netlify.app/css/main.css" />
     <link rel="stylesheet" type="text/css" href="https://vider.netlify.app/css/responsive.css" />
-  </head>
- <header>
       <nav
         class="navbar navbar-expand-lg navbar-light bg-transparent border-bottom border-color-black-transparent header-light fixed-top navbar-boxed header-reverse-scroll"
       >
